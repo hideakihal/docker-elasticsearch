@@ -47,9 +47,9 @@ ADD elasticsearch.conf /etc/supervisor/conf.d/elasticsearch.conf
 
 # Install Kibana
 RUN apt-get install -y unzip
-RUN wget http://download.elasticsearch.org/kibana/kibana/kibana-latest.zip
-RUN unzip kibana-latest.zip
-RUN mv kibana-latest /usr/local/kibana
+RUN wget https://github.com/elasticsearch/kibana/archive/v3.1.0.zip
+RUN unzip v3.1.0.zip
+RUN mv v3.1.0 /usr/local/kibana
 ADD config.js /usr/local/kibana/config.js
 
 # Install Nginx
