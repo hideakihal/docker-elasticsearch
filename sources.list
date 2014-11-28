@@ -1,0 +1,9 @@
+# newer versions of the distribution.
+ 
+deb http://jp.archive.ubuntu.com/ubuntu precise main restricted
+deb-src http://jp.archive.ubuntu.com/ubuntu precise main restricted
+ 
+## Major bug fix updates produced after the final release of the
+## distribution.
+deb http://jp.archive.ubuntu.com/ubuntu precise-updates main restricted
+deb-src http://jp.archive.ubuntu.com/ubuntu precise-updates main restricted
